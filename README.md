@@ -44,3 +44,7 @@ InteractiveShell.ast_node_interactivity = "all"
 [데이터 시각화 예제](https://m.blog.naver.com/icbanq/222056484058) <br>
 [데이터 핸들링 matplotlib](https://cool24151.tistory.com/16) <br>
 [matplotlib에서 그림판 크기를 변경하는 방법](https://www.delftstack.com/ko/howto/matplotlib/how-to-change-the-figure-size-in-matplotlib/) <br>
+
+### 한글깨짐
+[VSCode 한글 깨짐 현상 해결](https://apple-py.tistory.com/entry/%EC%9B%8C%EB%93%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%A6%AC%EB%B7%B0-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A0%9C-1%ED%8E%B8-Visual-Studio-Code%EC%97%90%EC%84%9C-Jupyter-Notebook-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0) <br>
+[한글깨짐 현상 해결](https://itisik.tistory.com/114)
