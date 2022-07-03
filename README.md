@@ -66,3 +66,6 @@ test['Embarked'] = test['Embarked'].map({'S':1, 'C':2, 'Q':3})
 ```
 
 feature 늘린 게 결과 더 좋았음.
+
+XGBoost 돌리기 (앙상블 기법에 대한 공부)
+상관관계로 증명
