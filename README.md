@@ -54,3 +54,10 @@ InteractiveShell.ast_node_interactivity = "all"
 [머신러닝 - 13. 파라미터(Parameter)와 하이퍼 파라미터(Hyper parameter)](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-13-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0Parameter%EC%99%80-%ED%95%98%EC%9D%B4%ED%8D%BC-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0Hyper-parameter) <br>
 [하이퍼 파라미터 종류](http://blog.skby.net/%ED%95%98%EC%9D%B4%ED%8D%BC%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-hyperparameter/) <br>
 [[ML] Feature Selection (Filter Method & Wrapper Method & Embedded Method)](https://wooono.tistory.com/249) - feature selection, feature engineering, feature extraction 비교<br>
+
+## 220703 타이타닉, rocauc 점수
+1st_submission(X_train에서 ['Ticket', 'Cabin', 'Embarked'] 제외하고 학습 진행.) : 0.65194 <br>
+
+2nd_submission(1st_try에 이어서, 'Embarked'의 S, C, Q를 각각 1,2,3으로 끼워넣고 예측) : 0.678067186 <br>
+
+feature 늘린 게 결과 더 좋았음.
