@@ -148,3 +148,5 @@ SelectFromModel
 decision tree 기반 알고리즘에서 피처를 뽑아오는 방법입니다.
 RandomForest나 LightGBM 등
 ```
+
+[grid search 시 참고한 자료](https://blog.naver.com/PostView.nhn?isHttpsRedirect=true&blogId=healingview&logNo=221244848751&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView)
