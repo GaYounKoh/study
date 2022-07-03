@@ -58,6 +58,11 @@ InteractiveShell.ast_node_interactivity = "all"
 ## 220703 타이타닉, rocauc 점수
 1st_submission(X_train에서 ['Ticket', 'Cabin', 'Embarked'] 제외하고 학습 진행.) : 0.65194 <br>
 
-2nd_submission(1st_try에 이어서, 'Embarked'의 S, C, Q를 각각 1,2,3으로 끼워넣고 예측) : 0.678067186 <br>
+2nd_submission(1st_try에 이어서, 'Embarked'의 S, C, Q를 각각 1,2,3으로 맵핑하고 예측) : 0.678067186 <br>
+
+```python
+# mapping code
+test['Embarked'] = test['Embarked'].map({'S':1, 'C':2, 'Q':3})
+```
 
 feature 늘린 게 결과 더 좋았음.
