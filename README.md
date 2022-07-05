@@ -55,7 +55,7 @@ InteractiveShell.ast_node_interactivity = "all"
 [하이퍼 파라미터 종류](http://blog.skby.net/%ED%95%98%EC%9D%B4%ED%8D%BC%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-hyperparameter/) <br>
 [[ML] Feature Selection (Filter Method & Wrapper Method & Embedded Method)](https://wooono.tistory.com/249) - feature selection, feature engineering, feature extraction 비교<br>
 
-## 220703 타이타닉, rocauc 점수
+# 220703 타이타닉 (rocauc 점수)
 예측 인풋에는 수치형만! <br>
 
 1st_submission(X_train에서 ['Ticket', 'Cabin', 'Embarked'] 제외하고 학습 진행.) : 0.65194 <br>
@@ -150,3 +150,18 @@ RandomForest나 LightGBM 등
 ```
 
 [grid search 시 참고한 자료](https://blog.naver.com/PostView.nhn?isHttpsRedirect=true&blogId=healingview&logNo=221244848751&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView)
+
+# 구내식당 식사 인원 예측 (MAE)
+1 요일, 재택자수, 중식메뉴, 석식메뉴 (분류) : 288.3
+💛직관>feature selection💛 2 요일, 재택자수, 중식메뉴, 석식메뉴 (회귀) : 103.4786167211
+3 feature selection 3 : 103.9761696286
+4 feature selection 2 : 134.5457881815
+5 feature selection 2, grid search cv : 132.947587081
+💛직관 + 하이퍼파라미터 조정💛 6 요일, 재택자수, 중식메뉴, 석식메뉴, grid search cv : 101.7230563976
+
+[scoring metric name](https://scikit-learn.org/stable/modules/model_evaluation.html#scoring-parameter) <br>
+
+### 모델이 보유하고 있는 하이퍼 파라미터 확인
+```python
+lgbm.LGBMRegressor().get_params()
+```
