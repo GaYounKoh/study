@@ -165,3 +165,6 @@ RandomForest나 LightGBM 등
 ```python
 lgbm.LGBMRegressor().get_params()
 ```
+
+7 요일, 재택자수, 중식메뉴, 석식메뉴, optuna : 116.2381121259
+💔hp 개수 줄였더니 악화됨💔8 요일, 재택자수, 중식메뉴, 석식메뉴, optuna 개수 줄임 : 121.4483664297
