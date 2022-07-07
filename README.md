@@ -188,4 +188,5 @@ random search 범위가 넓어서 그런지 오래걸림 (2시간 가까이 걸�
 
 💔fs 결과로 하니까 똥망💔11 feature selection으로 나온 피쳐로 진행, random search : 105.0600017548 <br>
 
-[앙상블 기법 시도해보기](https://lsjsj92.tistory.com/558) <br>
+[스태킹 앙상블 기법 시도해보기](https://lsjsj92.tistory.com/558) <br>
+==> 스태킹 앙상블은 y_test가 있어야 할 수 있음. 보통의 대회에서는 y_test를 주지 않으므로 할 수가 없음.
